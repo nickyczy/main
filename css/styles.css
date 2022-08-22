@@ -981,6 +981,25 @@ body.light-theme {
 	}
 }
 
+@media screen and (min-width: 321px) {
+	.section {
+		padding: 2rem 1rem;
+	}
+	.about__container {
+		margin: 0;
+		padding: 1rem;
+	}
+
+	.services__container {
+		grid-template-columns: repeat(3, 140px);
+		justify-content: center;
+	}
+
+	.services__title {
+		padding: 1rem 0;
+	}
+}
+
 /* For medium devices */
 @media screen and (min-width: 576px) {
 	.nav__menu {
