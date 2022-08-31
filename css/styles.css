@@ -981,7 +981,7 @@ body.light-theme {
 	}
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (max-width: 575px) {
 	.section {
 		padding: 2rem 1rem;
 	}
@@ -997,6 +997,17 @@ body.light-theme {
 
 	.services__title {
 		padding: 1rem 0;
+	}
+
+	.work__container {
+		justify-content: center;
+	}
+
+	.work__card {
+		display: block;
+	}
+	.work__img {
+		width: 275px;
 	}
 }
 
